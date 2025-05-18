@@ -41,3 +41,4 @@ if len(categories) == len(values) and all(isinstance(val, int) for val in values
     )
 else:
     st.error("Please ensure that the number of categories matches the number of values and that all values are integers.")
+st.header("Created By Pranav Manglani")
